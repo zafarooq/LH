@@ -12,7 +12,7 @@ namespace ListerHaigh.Validators
         public DepartmentValidator()
         {
             RuleFor(x => x.Code)
-                .NotEmpty().WithMessage("Code cannot be left blank.")
+                .NotEmpty().WithMessage("Code is a required field.")
                 .Length(1, 50).WithMessage("Code cannot be greater than 50.");
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("Name field is required")
