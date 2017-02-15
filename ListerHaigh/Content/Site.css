@@ -1,0 +1,62 @@
+﻿body{
+    width:98% !important
+}
+#loginbox {
+    padding: 20px;
+}
+#loginbox .panel {
+    margin-bottom: 0 !important;
+    box-shadow: 0px 0px 20px 1px black !important;
+    border-radius: 20px !important;
+}
+.white-alpha-90 {
+    background-color: white;
+	background-color: rgba(256, 256, 256, 0.9) !important;
+}
+#loginbox .panel-heading {
+    border-bottom: 1px solid #aaa !important;
+}
+#loginbox .panel-title {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+}
+.text-center {
+    text-align: center;
+}
+#loginbox .panel-body {
+    padding-top: 30px;
+}
+.login-action {
+    border-top: 1px solid #aaa;
+    margin-bottom: 0px;
+    margin-top:10px;
+}
+#btn-login {
+    border-left: 1px solid #aaa;
+}
+.navbar-top-links .dropdown-user {
+    left: auto;
+    right: 0;
+}
+.sidebar {
+    margin-top: 51px;
+    position: absolute;
+    width: 250px;
+    z-index: 1;
+}
+.sidebar .sidebar-nav.navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+.sidebar ul li {
+    border-bottom: 1px solid #e7e7e7;
+}
+#page-wrapper {
+    border-left: 1px solid #e7e7e7;
+    margin: 0 0 0 250px;
+    padding: 0 30px;
+    position: inherit;
+    background-color: #fff;
+}
+.top-buffer {
+    margin-top: 20px;
+}

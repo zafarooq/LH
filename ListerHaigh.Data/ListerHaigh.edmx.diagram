@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="570bf129dc014f14982ea95ed46205b4" Name="Diagram1">
+        <EntityTypeShape EntityType="ListerHaighModel.AppointmentAttendee" Width="1.5" PointX="5.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Appointment" Width="1.5" PointX="9.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Attachment" Width="1.5" PointX="12.75" PointY="34.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.AuditLog" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.ComparableRecord" Width="1.5" PointX="8.25" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.County" Width="1.5" PointX="1.5" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Customer" Width="1.5" PointX="0.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.CustomerSubscription" Width="1.5" PointX="3" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.DashboardSection" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Department" Width="1.5" PointX="0.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Event" Width="1.5" PointX="3" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.JobAllocation" Width="1.5" PointX="12.75" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.JobClient" Width="1.5" PointX="15.75" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.JobCode" Width="1.5" PointX="3" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.JobEvent" Width="1.5" PointX="5.25" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.JobExpens" Width="1.5" PointX="12.75" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.JobNumber" Width="1.5" PointX="2.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Job" Width="1.5" PointX="10.5" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.JobSubCode" Width="1.5" PointX="5.25" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.ListItem" Width="1.5" PointX="12" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.ListType" Width="1.5" PointX="9.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.ModuleItem" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Module" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Office" Width="1.5" PointX="8.25" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Permission" Width="1.5" PointX="7.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Preference" Width="1.5" PointX="12.75" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Property" Width="1.5" PointX="5.25" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.PropertyHistory" Width="1.5" PointX="15.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.PropertyReferenceNumber" Width="1.5" PointX="3.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.SecurityAction" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.Town" Width="1.5" PointX="1.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.TypeOne" Width="1.5" PointX="3" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.TypeTwo" Width="1.5" PointX="3" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.UrlRedirect" Width="1.5" PointX="5.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.UserProfile" Width="1.5" PointX="8.25" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.User" Width="1.5" PointX="10.5" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.ValidationType" Width="1.5" PointX="7.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.webpages_Membership" Width="1.5" PointX="9.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.webpages_OAuthMembership" Width="1.5" PointX="11.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.webpages_Roles" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ListerHaighModel.WorkDetail" Width="1.5" PointX="12.75" PointY="47.625" IsExpanded="true" />
+        <AssociationConnector Association="ListerHaighModel.FK_Attachments_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Attachments_Property" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_ComparableRecord_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_ComparableRecord_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_ComparableRecord_Events" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_ComparableRecord_Property" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_ComparableRecord_TypeOne" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_ComparableRecord_TypeTwo" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_PropertyHistory_ComparableRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Customers_Counties" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Property_Counties" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Towns_Counties" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Customers_Towns" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_CustomerSubscriptions_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobClients_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Jobs_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_CustomerSubscriptions_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_ModuleItem_DashboardSection" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Events_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobCodes_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobEvents_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Jobs_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_TypeOne_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_TypeTwo_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobEvents_Events" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Jobs_Events" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Property_Events" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobAllocation_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobAllocation_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobClients_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Jobs_JobCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobSubCodes_JobCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobEvents_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobEvents_TypeOne" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobEvents_TypeTwo" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_JobExpenses_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Jobs_JobSubCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Jobs_Office" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Jobs_Property" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Jobs_TypeOne" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Jobs_TypeTwo" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_PropertyHistory_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_WorkDetails_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_ListItems_ListTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_ModuleItem_Modules" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Permissions_ModuleItem" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_SecurityActions_ModuleItem" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Permissions_Modules" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_User_Office" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Permissions_SecurityActions" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Permissions_webpages_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Preferences_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_Property_Towns" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_PropertyHistory_Property" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_PropertyHistory_Property1" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.FK_User_UserProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="ListerHaighModel.webpages_UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,62 @@
+﻿@using ListerHaigh.Models
+@model IEnumerable<ListerHaigh.Models.DepartmentModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <hgroup>
+            <h2>Department Listing</h2>
+        </hgroup>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        @Html.ActionLink("Add New Department", "Create", null, new { @class = "btn btn-small btn-success", title = "" })
+    </div>
+</div>
+<div class="row top-buffer">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        @using (Html.BeginForm("Delete", "Department", null, FormMethod.Post, new { @clas = "form-horizontal" }))
+        {
+            <table id="tblDepartment" class="table table-striped table-hover table-responsive" aria-describedby="table_report_info">
+                <thead>
+                    <tr role="row">
+                        <th style="width: 10%;">Code</th>
+                        <th style="width: 20%;">Name</th>
+                        <th tyle="width: 10%;">Status</th>
+                        <th>&nbsp</th>
+                    </tr>
+                </thead>
+                <tbody role="alert" aria-live="polite">
+                    @foreach (DepartmentModel department in Model)
+                    {
+                        <tr>
+                            <td>
+                                @department.Code
+                            </td>
+                            <td>
+                                @department.Name
+                            </td>
+                            <td>
+                                @department.Status
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-xs btn-info" title="Edit Department"><i class="fa fa-edit fa-fw"></i></a>
+                                <a href="#" class="btn btn-xs btn-danger" title="Delete Department"><i class="fa fa-trash fa-fw"></i></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#tblDepartment').DataTable();
+        });
+    </script>
+}
