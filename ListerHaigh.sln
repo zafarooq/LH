@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListerHaigh.Tests", "ListerHaigh.Tests\ListerHaigh.Tests.csproj", "{59A1A74B-1621-4DEF-8085-D5219DC8D16A}"
 EndProject
@@ -21,6 +21,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListerHaigh.Common", "ListerHaigh.Common\ListerHaigh.Common.csproj", "{22D12FBC-403D-479A-A716-66A94D16A6ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListerHaigh", "ListerHaigh\ListerHaigh.csproj", "{4FF6BDC5-B9BB-452C-9ACA-A4CB3C5B1EBD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ListerHaigh.DataBase", "ListerHaigh.DataBase\ListerHaigh.DataBase.sqlproj", "{DF7EDB72-077E-4FD1-954E-AF56DA19BA9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +54,12 @@ Global
 		{4FF6BDC5-B9BB-452C-9ACA-A4CB3C5B1EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FF6BDC5-B9BB-452C-9ACA-A4CB3C5B1EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FF6BDC5-B9BB-452C-9ACA-A4CB3C5B1EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7EDB72-077E-4FD1-954E-AF56DA19BA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7EDB72-077E-4FD1-954E-AF56DA19BA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7EDB72-077E-4FD1-954E-AF56DA19BA9C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF7EDB72-077E-4FD1-954E-AF56DA19BA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7EDB72-077E-4FD1-954E-AF56DA19BA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7EDB72-077E-4FD1-954E-AF56DA19BA9C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
